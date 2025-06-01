@@ -45,6 +45,33 @@ p {
     flex-direction: column;
     gap: 10px;
   }
+  .logo {
+    width: 80%;
+    margin-top: 100px;
+  }
+  .cronograma-novo .descricao {
+    font-size: 1.2rem;
+  }
+  .pagina-cronograma {
+    padding-top: 140px;
+  }
+  .navbar ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .navbar a {
+    font-size: 0.9rem;
+    padding: 4px 8px;
+  }
+  .cronograma-novo .item {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .cronograma-novo .data {
+    margin-bottom: 8px;
+  }
 }
 
 .navbar {
