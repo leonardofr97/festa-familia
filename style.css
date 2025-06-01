@@ -1,0 +1,146 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #f5eee5, #f5cfa0);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  color: #555;
+}
+
+.countdown {
+  display: flex;
+  gap: 20px;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #222;
+  justify-content: center;
+}
+
+.countdown div {
+  background: #ffffffcc;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  min-width: 80px;
+}
+
+@media (max-width: 500px) {
+  .countdown {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
+.navbar {
+  width: 100%;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  padding: 10px 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #333;
+  font-size: 1rem;
+  padding: 6px 12px;
+  border-radius: 6px;
+}
+
+.navbar a:hover,
+.navbar a.active {
+  background-color: #c3cfe2;
+  color: #000;
+}
+
+.pagina-cronograma {
+  padding-top: 550px; /* espaço para a navbar fixa */
+  padding-bottom: 40px;
+}
+
+.pagina-contagem-regressiva {
+  padding-top: 40px; /* espaço para a navbar fixa */
+  padding-bottom: 40px;
+}
+
+.logo {
+  width: 435px;
+  height: auto;
+  margin-top: 80px;
+  margin-bottom: 20px;
+}
+
+.cronograma-novo {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 30px;
+}
+
+.cronograma-novo .item {
+  display: flex;
+  align-items: center;
+  background-color: #f3ab54; /* laranja */
+  border-radius: 12px;
+  padding: 16px;
+  box-shadow: 2px 4px 6px rgba(0,0,0,0.1);
+  color: #000;
+}
+
+.cronograma-novo .data {
+  background-color: #f7b2d9; /* rosa claro */
+  color: #111;
+  text-align: center;
+  border-radius: 10px;
+  padding: 8px 12px;
+  margin-right: 16px;
+  min-width: 60px;
+  font-family: sans-serif;
+}
+
+.cronograma-novo .data .dia {
+  display: block;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+.cronograma-novo .data .numero {
+  display: block;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.cronograma-novo .descricao {
+  font-size: 2rem;
+  line-height: 1.4;
+  font-family: sans-serif;
+}
