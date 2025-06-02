@@ -77,8 +77,8 @@ p {
     gap: 10px;
   }
   .navbar a {
-    font-size: 0.9rem;
-    padding: 4px 8px;
+    font-size: 1.1rem;
+    padding: 10px 16px;
   }
   .cronograma-novo .item {
     flex-direction: column;
@@ -114,9 +114,9 @@ p {
   text-decoration: none;
   font-weight: bold;
   color: #333;
-  font-size: 1rem;
-  padding: 6px 12px;
-  border-radius: 6px;
+  font-size: 1.3rem;
+  padding: 12px 20px;
+  border-radius: 8px;
 }
 
 .navbar a:hover,
