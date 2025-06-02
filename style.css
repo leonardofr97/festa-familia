@@ -62,14 +62,13 @@ p {
   }
   .logo {
     width: 80%;
-    margin-top: 100px;
   }
   .cronograma-novo .descricao {
     font-size: 1.2rem;
   }
   .pagina-contagem-regressiva,
   .pagina-cronograma {
-    padding-top: 40px;
+    padding-top: 100px;
   }
   .navbar ul {
     flex-direction: column;
@@ -127,17 +126,13 @@ p {
 
 .pagina-contagem-regressiva, 
 .pagina-cronograma {
-  padding-top: 40px; /* espaço para a navbar fixa */
   padding-bottom: 40px;
   padding-inline: 16px;
 }
 
 .logo {
-  width: 100%;
   max-width: 435px;
   height: auto;
-  margin-top: 80px;
-  margin-bottom: 20px;
 }
 
 .cronograma-novo {
