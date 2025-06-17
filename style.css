@@ -130,6 +130,10 @@ p {
   padding-inline: 16px;
 }
 
+.pagina-cronograma {
+  padding-top: 100px;
+}
+
 .logo {
   max-width: 435px;
   height: auto;
